@@ -4,7 +4,7 @@
 
 ## Aplicativo para pesquisas e buscas de livros baseado na API GOOGLE BOOKS e Angular na versão 17.
 
-### O Busca Livros é uma aplicativo que faz pesquisas e buscas de livros na API GOOGLE BOOKS.
+### O Busca Livros é uma aplicativo que faz pesquisas e buscas de livros na API GOOGLE BOOKS. Além disso, aqui são explorados os recursos para acessibilidade inclusiva para deficientes
 
 ### É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
 

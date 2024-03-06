@@ -13,7 +13,7 @@
   </section>
   }
   @if (livrosEncontrados$ | async; as listaLivros) {
-  <section aria-label="Resultados da busca" class="resultados">
+  <section role="alert" aria-label="Resultados da busca" class="resultados">
     {{ livrosResultado.totalItems }} resultados encontrados
   </section>
   <ul aria-label="Lista de livros encontrados" class="container-card">
