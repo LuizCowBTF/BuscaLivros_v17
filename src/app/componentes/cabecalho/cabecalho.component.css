@@ -18,9 +18,13 @@ header a {
   margin-right: 1.5rem;
 }
 
+header .active-page {
+  background-color: #6C63FF ;
+}
+
 .logo {
   display: block;
-  width: 236px;
+  width: 380px;
   height: 60px;
 }
 
