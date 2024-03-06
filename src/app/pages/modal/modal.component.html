@@ -1,4 +1,4 @@
-<dialog [open]="statusModal" class="container">
+<dialog cdkTrapFocus cdkTrapFocusAutoCapture="true" [open]="statusModal" class="container">
   <article class="card">
     <img class="imagem" [src]="thumbnailUrl" alt="Capa do livro: {{ livro.title }}">
     <section class="info-card">
@@ -21,5 +21,5 @@
       <p class="resultado">{{ livro.description | slice:0:1000 }}</p>
     </section>
   </article>
-  <div class="overlay"></div>
+  <div class="overlay" (click)="fecharModal()"></div>
 </dialog>
