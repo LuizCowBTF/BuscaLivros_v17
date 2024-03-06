@@ -7,15 +7,18 @@ import { SobreComponent } from './pages/sobre/sobre.component';
 export const routes: Routes = [
   {
     path: 'lista-livros',
-    component: ListaLivrosComponent
+    component: ListaLivrosComponent,
+    title: 'Busca Livros - Busque seu livro'
   },
   {
     path: 'sobre',
-    component: SobreComponent
+    component: SobreComponent,
+    title: 'Busca Livros - Conheça-nos'
   },
   {
     path: 'contato',
-    component: ContatoComponent
+    component: ContatoComponent,
+    title: 'Busca Livros - Fale conosco'
   },
   {
     path: '',
