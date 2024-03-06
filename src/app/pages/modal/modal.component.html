@@ -10,11 +10,11 @@
       <p class="informacoes">Editora:</p>
       <p class="resultado">{{ livro.publisher }}</p>
       <div class="botoes">
-        <button aria-label="Fechar modal" (click)="lerPrevia()" class="detalhes">Ler prévia</button>
+        <button [attr.aria-label]="'Ler prévia do livro {{ livro.title }}'" (click)="lerPrevia()" class="detalhes">Ler prévia</button>
       </div>
     </section>
-    <button (click)="fecharModal()" class="botao-fechar">
-      <span class="material-symbols-outlined">close</span>
+    <button aria-label="Fechar modal" (click)="fecharModal()" class="botao-fechar">
+      <span class="material-symbols-outlined">Close</span>
     </button>
     <section class="sinopse">
       <h3 class="informacoes">Sinopse</h3>
