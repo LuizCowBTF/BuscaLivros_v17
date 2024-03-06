@@ -119,8 +119,10 @@ section button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 10px;
   margin-left: 80px;
   margin-right: 80px;
+  margin-bottom: 100px;
 }
 
 .imagens {
